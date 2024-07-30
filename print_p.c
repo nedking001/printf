@@ -3,7 +3,7 @@
 /**
  * print_p - prints a pointer address.
  * @val: arguments.
- * Return: ton.
+ * Return: integer.
  */
 int print_p(va_list val)
 {
