@@ -25,7 +25,7 @@ int print_p(va_list val)
 
 	a = (unsigned long int)p;
 	_putchar('0');
-	_putchar('x');
+	_putchar('a');
 	b = print_hexa_plus(a);
 	return (b + 2);
 }
