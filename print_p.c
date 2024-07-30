@@ -9,7 +9,7 @@ int print_p(va_list val)
 {
 	void *p;
 	char *st = "(nil)";
-	long int a;
+	long int x;
 	int b;
 	int i;
 
@@ -23,9 +23,9 @@ int print_p(va_list val)
 		return (i);
 	}
 
-	a = (unsigned long int)p;
+	x = (unsigned long int)p;
 	_putchar('0');
-	_putchar('a');
-	b = print_hexa_plus(a);
+	_putchar('x');
+	b = print_hexa_plus(x);
 	return (b + 2);
 }
